@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",         // or later
+    "module": "ESNext",         // allows `import` syntax
+    "moduleResolution": "node", // resolve like Node.js
+    "esModuleInterop": true,    // fixes many import issues
+    "strict": true,
+    "outDir": "./dist",
+    "rootDir": "./src"
+  }
+}
