@@ -22,7 +22,7 @@ export const Game = ()=>{
             switch (message.type){
                 
                 case INIT_GAME:
-                  setChess(new Chess());
+           
                   setBoard(chess.board())
                     console.log("Game initilized");
                     break;
@@ -44,7 +44,7 @@ export const Game = ()=>{
         <div className="pt-8 max-w-screen-lg">
             <div className="grid grid-cols-6 gap-4 md:grid-cols-2 w-full">
              <div className="col-span-4  w-full flex justify-centre">
-               <ChessBoard board={board}/>
+               <ChessBoard chess={chess} setBoard={setBoard} socket={socket} board={board}/>
              </div>
              <div className="col-span-2 bg-green-200 w-full flex justify-center">
                     <div className="pt-8  w-128 flex justify-center">

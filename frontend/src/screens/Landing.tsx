@@ -8,7 +8,7 @@ export const Landing = ()=>{
         <div className="mt-2 bg-white-200">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
        <div className="flex items-center justify-center h-screen">
-        <img src={"/chess.jpeg"}></img>
+       <img src={"/chess.jpeg"}></img>
        </div>
        <div className="flex items-center justify-center h-screen">
        <div className="align-centre">
